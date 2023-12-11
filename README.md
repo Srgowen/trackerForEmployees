@@ -1,71 +1,48 @@
-# SQL Challenge: Employee Tracker
+Overview
+This command-line application, developed with Node.js, Inquirer, and MySQL, facilitates the efficient management of an organization's employee database. Users can seamlessly view and control departments, roles, and employees within their company.
 
-## Overview
+Installation
+Usage
+Walkthrough Video
+Database Schema
+Credits
+Contact
+Installation
+To install this application, follow these steps:
 
-This is a command-line application built using Node.js, Inquirer, and MySQL to manage a company's employee database. The application allows users to view and manage departments, roles, and employees in their organization.
+Clone the repository to your local machine.
+Open the terminal and navigate to the project directory.
+Run 'npm install' to install the necessary dependencies (inquirer, mysql2, console.table).
+Usage
+To utilize this application, follow these steps:
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Walthrough Video](#walkthrough-video)
-* [Data Schema](#database-schema)
-* [Credits](#credits)
-* [Contact](#contact)
+Open the terminal and navigate to the project directory.
 
-## Installation
+Run 'npm start' to initiate the application.
 
-To install this application, please follow the steps below:
+Select from the following options:
 
-1. Clone the repository to your local machine
-2. Open the terminal and navigate to the project directory
-3. Run 'npm install' to install the dependencies (inquirer, mysql2, console.table)
+View all departments
+View all roles
+View all employees
+Add a department
+Add a role
+Add an employee
+Update an employee role
+Exit
+Depending on your choice, the application will provide relevant information or prompt you to add/update data.
 
-## Usage
+Walkthrough Video
+For a detailed demonstration of the application's functionality, refer to this video.
+""
 
-To use this application, please follow the steps below:
+Database Schema
+The application employs a well-structured database schema comprising three tables: department, role, and employee. The schema design image in the README file provides additional insights.
 
-1. Open the terminal and navigate to the project directory
-2. Run 'npm start' to start the application
-3. Choose from the following options:
+Credits
+This application leverages Node.js, Inquirer, and MySQL, with console.table utilized for formatting MySQL rows. The database schema was meticulously designed to meet the challenge's requirements.
 
-* View all departments
-* View all roles
-* View all employees
-* Add a department
-* Add a role
-* Add an employee
-* Update an employee role
-* Exit
+Contact
+For inquiries or feedback, reach out to me on GitHub @https://github.com/Srgowen.
 
-If you choose to view all departments, you will be presented with a formatted table showing department names and department IDs.
-
-If you choose to view all roles, you will be presented with the job title, role ID, the department that role belongs to, and the salary for that role.
-
-If you choose to view all employees, you will be presented with a formatted table showing employee data, including employee IDs, first names, last names, job titles, departments, salaries, and managers that the employees report to.
-
-If you choose to add a department, you will be prompted to enter the name of the department, and that department will be added to the database.
-
-If you choose to add a role, you will be prompted to enter the name, salary, and department for the role, and that role will be added to the database.
-
-If you choose to add an employee, you will be prompted to enter the employee’s first name, last name, role, and manager, and that employee will be added to the database.
-
-If you choose to update an employee role, you will be prompted to select an employee to update and their new role, and this information will be updated in the database.
-
-If you choose to exit, the application will be closed.
-
-## Walkthrough Video
-
-Please refer to this [video](https://drive.google.com/file/d/1Cko7T6m-WLbu64enpIDWJItgVgcaoDA2/view?usp=share_link) for a walkthrough video that demonstrates the functionality of the employee tracker.
-
-## Database Schema
-
-This application uses a database schema with three tables: department, role, and employee. Please refer to the schema design image in the README file for more information.
-
-## Credits
-
-This application was built using Node.js, Inquirer, and MySQL. The console.table package was used to print MySQL rows to the console. The database schema was designed based on the requirements of the challenge.
-
-## Contact
-
-If you have any questions or feedback, please contact me through my [GitHub](https://github.com/monicapong).
-
-Thank you for using the employee tracker
+Thank you for choosing the Employee Tracker!
